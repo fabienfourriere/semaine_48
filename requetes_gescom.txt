@@ -129,5 +129,8 @@ GRANT SELECT
 ON afpa_gescom_1.orders, afpa_gescom_1.orders_details, afpa_gescom_1.customers
 TO 'marketing'@'localhost'
 
+6. Assurer les sauvegardes
+
+mysql --user=root --password= < C:\Backup\backup_afpa_gescom_1.sql
 
 
